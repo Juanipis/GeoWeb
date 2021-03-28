@@ -1,0 +1,31 @@
+/*
+    Paleta de col-smores de google
+    Azul: #4285f4
+    Verde: #34a853
+    Amarillo: #fbbc05
+    Rojo: #ea4335
+*/
+#footer .container-fluid{
+    background-color: #F7F7F7;
+    height: auto;
+}
+#footer .container-fluid .row .col-sm{
+    width: 25rem;
+    margin-top: 0.3rem;
+}
+#footer .container-fluid .row .col-sm .p{
+    padding-top: 1rem;
+}
+#footer .container-fluid .row .col-sm .twitter-link .twitter-logo{
+    width: 28px;
+    margin-left: 0.3rem;
+}
+#footer .container-fluid .row .col-sm .linkedin-link .linkedin-logo{
+    width: 30px;
+    margin-left: 0.3rem;
+    
+}
+#footer .container-fluid .row .col-sm .github-link .github-logo{
+    width: 26px;
+    
+}
