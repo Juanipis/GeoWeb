@@ -12,7 +12,9 @@
     
     <link rel="stylesheet" href="/css/triangles.css">
     <script src="/js/resizeTriangles.js"></script>
-    </head>
+    <script src="https://polyfill.io/v3/polyfill.min.js?features=es6"></script>
+<script id="MathJax-script" async src="https://cdn.jsdelivr.net/npm/mathjax@3/es5/tex-mml-chtml.js"></script>
+</head>
     <body>
         <header>
             <nav class="navbar navbar-expand-lg navbar-light bg-light">
@@ -84,14 +86,18 @@
                     <div class="row">
                         <div class="col-sm">
                             <h2>Triángulo isóceles</h2>
-                            <ul>
+                            <ul >
                                 <li>
-                                    Tiene dos lados <strong>iguales</strong>
+                                    <p>Tiene por lo menos dos lados <strong>congruentes</strong></p>
                                 </li>
+                                <p>$$ {\overline {AB}} \simeq {\overline {AC}} \quad entonces \quad \triangle ABC \quad isoceles$$</p>
                             </ul>
                         </div>
                         <div class="col-sm">
                             <svg class="container_figure">
+                                <text x="170" y="12">A</text> <!--Vertice A-->
+                                <text x="0" y="140">B</text> <!--Vertice A-->
+                                <text x="291" y="140">C</text> <!--Vertice A-->
                                 <polygon id="isoceles" points="150 0, 0 150, 300 150" />
                             </svg>
                         </div>

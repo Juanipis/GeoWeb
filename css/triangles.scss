@@ -9,6 +9,9 @@
     --width-a: 50%;
     --width-b: 50%;
     --width-c: 50%;
+
+    --width-iso-a: 20%;
+    --width-iso-b: 80%
 }
 
 @keyframes animacion_escaleno{
@@ -32,13 +35,15 @@
     animation-duration: 6s;
     animation-iteration-count: infinite;
 }
+
+
 @keyframes animacion_isoceles{
     0%{
         clip-path: polygon(50% 0%, 0% 100%, 100% 100%);
         fill: #ea4335;
     }
     50%{
-        clip-path: polygon(50% 0%, 20% 100%, 80% 100%);
+        clip-path: polygon(50% 0%, var(--width-iso-a) 100%, var(--width-iso-b) 100%);
         fill: #4285f4;
     }
     100%{
@@ -54,8 +59,10 @@
     animation-iteration-count: infinite;
 }
 
-
-
 .type_containers{
     margin-top: 2rem;
 }
+.col-sm h2{
+    text-align: center;
+}
+
