@@ -62,17 +62,38 @@
 
         <main>
             <section class="figures">
-                <article class="container-fluid d-flex align-items-center justify-content-center" style="margin-top: 0.5rem;margin-bottom: 0.5rem;">
-                    <div class="row">
+                <h1 style="text-align: center;">Clasificación de triángulos según sus lados</h1>
+                <article class="type_containers container-fluid d-flex align-items-center justify-content-center">
+                    <div class="row" >
                         <div class="col-sm">
-                            <h2>Triangulo escaleno</h2>
+                            <h2>Triángulo escaleno</h2>
+                            <ul>
+                                <li>
+                                    Tiene todos sus lados <strong>desiguales</strong>
+                                </li>
+                            </ul>
                         </div>
                         <div class="col-sm ">
-                            
                             <svg class="container_figure">
-                                <polygon id="escaleno" points="0 0, 40 100, 230 100" />
+                                <polygon id="escaleno" points="0 0, 40 150, 300 110" />
                             </svg>
-                            
+                        </div>
+                    </div>
+                </article>
+                <article class="type_containers container-fluid d-flex align-items-center justify-content-center">
+                    <div class="row">
+                        <div class="col-sm">
+                            <h2>Triángulo isóceles</h2>
+                            <ul>
+                                <li>
+                                    Tiene dos lados <strong>iguales</strong>
+                                </li>
+                            </ul>
+                        </div>
+                        <div class="col-sm">
+                            <svg class="container_figure">
+                                <polygon id="isoceles" points="150 0, 0 150, 300 150" />
+                            </svg>
                         </div>
                     </div>
                 </article>

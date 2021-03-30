@@ -1,0 +1,61 @@
+
+/*Paleta de colores de google
+    Azul: #4285f4
+    Verde: #34a853
+    Amarillo: #fbbc05
+    Rojo: #ea4335
+*/
+:root{
+    --width-a: 50%;
+    --width-b: 50%;
+    --width-c: 50%;
+}
+
+@keyframes animacion_escaleno{
+    0%{
+        clip-path: polygon(0% 0%, 0% 100%, 100% 100%);
+    }
+    50%{
+        clip-path: polygon(0% var(--width-b), var(--width-a) 100%, var(--width-c) 100%);
+        fill: #34a853;
+    }
+    100%{
+        clip-path: polygon(0% 0%, 0% 100%, 100% 100%);
+    }
+        
+}
+
+#escaleno{
+    fill: #4285f4;
+    clip-path:  polygon(0% 0%, 0% 100%, 100% 100%);
+    animation-name: animacion_escaleno;
+    animation-duration: 6s;
+    animation-iteration-count: infinite;
+}
+@keyframes animacion_isoceles{
+    0%{
+        clip-path: polygon(50% 0%, 0% 100%, 100% 100%);
+        fill: #ea4335;
+    }
+    50%{
+        clip-path: polygon(50% 0%, 20% 100%, 80% 100%);
+        fill: #4285f4;
+    }
+    100%{
+        clip-path: polygon(50% 0%, 0% 100%, 100% 100%);
+        fill: #ea4335;
+    }
+}
+
+#isoceles{
+    clip-path:  polygon(50% 0%, 0% 100%, 100% 100%);
+    animation-name: animacion_isoceles;
+    animation-duration: 6s;
+    animation-iteration-count: infinite;
+}
+
+
+
+.type_containers{
+    margin-top: 2rem;
+}

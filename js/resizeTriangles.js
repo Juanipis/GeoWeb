@@ -13,6 +13,6 @@ document.addEventListener("DOMContentLoaded", function () {
     red.style.setProperty('--width-b', getRandomArbitrary(0, 40) +'%');
     red.style.setProperty('--width-c', getRandomArbitrary(90, 100) +'%');
   }
-  setInterval(changeAnimationTime, 4000);
+  setInterval(changeAnimationTime, 6000);
   }
 );
