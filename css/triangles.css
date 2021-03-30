@@ -1,12 +1,51 @@
-#objeto{
-    width: 10rem;
-    height: 20rem;
+:root {
+  --width-a: 50%;
+  --width-b: 50%;
+  --width-c: 50%;
 }
 
-#escaleno {
-    
-    width: 40%;
-    height: 80%;
-    background-color: aqua;
-    
+@-webkit-keyframes animacion {
+  0% {
+    -webkit-clip-path: polygon(0% 0%, 0% 100%, 100% 100%);
+            clip-path: polygon(0% 0%, 0% 100%, 100% 100%);
+    /*transform: rotate(0deg) */
+  }
+  50% {
+    -webkit-clip-path: polygon(0% var(--width-b), var(--width-a) 100%, var(--width-c) 100%);
+            clip-path: polygon(0% var(--width-b), var(--width-a) 100%, var(--width-c) 100%);
+  }
+  100% {
+    /*transform: rotate(360deg) */
+    -webkit-clip-path: polygon(0% 0%, 0% 100%, 100% 100%);
+            clip-path: polygon(0% 0%, 0% 100%, 100% 100%);
+  }
 }
+
+@keyframes animacion {
+  0% {
+    -webkit-clip-path: polygon(0% 0%, 0% 100%, 100% 100%);
+            clip-path: polygon(0% 0%, 0% 100%, 100% 100%);
+    /*transform: rotate(0deg) */
+  }
+  50% {
+    -webkit-clip-path: polygon(0% var(--width-b), var(--width-a) 100%, var(--width-c) 100%);
+            clip-path: polygon(0% var(--width-b), var(--width-a) 100%, var(--width-c) 100%);
+  }
+  100% {
+    /*transform: rotate(360deg) */
+    -webkit-clip-path: polygon(0% 0%, 0% 100%, 100% 100%);
+            clip-path: polygon(0% 0%, 0% 100%, 100% 100%);
+  }
+}
+#escaleno {
+  fill: #4285f4;
+  -webkit-clip-path: polygon(0% 0%, 0% 100%, 100% 100%);
+          clip-path: polygon(0% 0%, 0% 100%, 100% 100%);
+  transform-origin: center center;
+  -webkit-animation-name: animacion;
+          animation-name: animacion;
+  -webkit-animation-duration: 4s;
+          animation-duration: 4s;
+  -webkit-animation-iteration-count: infinite;
+          animation-iteration-count: infinite;
+}/*# sourceMappingURL=triangles.css.map */

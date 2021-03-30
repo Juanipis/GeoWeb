@@ -1,11 +1,19 @@
-function changeSizeTriangleEscaleno(){
-    let triangle = document.getElementById('escaleno');
-    triangle.style.borderRight = getRandom(10, 20) + 'rem solid transparent';
-    triangle.style.borderLeft = getRandom(10, 20) + 'rem solid transparent';
-    triangle.style.borderBottom = getRandom(10, 20) + 'rem solid #f0ad4e';
 
+document.addEventListener("DOMContentLoaded", function () { 
+  var red = document.querySelector('#escaleno');
+
+function getRandomArbitrary(min, max) {
+  return Math.random() * (max - min) + min;
 }
 
-function getRandom(min, max) {
-    return Math.random() * (max - min) + min;
+
+function changeAnimationTime() {
+  red.style.setProperty('--width-a', getRandomArbitrary(0, 50) +'%');
+  red.style.setProperty('--width-b', getRandomArbitrary(0, 40) +'%');
+  red.style.setProperty('--width-c', getRandomArbitrary(90, 100) +'%');
+
 }
+  
+
+setInterval(changeAnimationTime, 4000);
+});

@@ -1,6 +1,6 @@
 <!doctype html>
 <html lang="es">
-  <head>
+<head>
     <!-- Required meta tags -->
     <meta charset="utf-8">
     <meta name="viewport" content="width=device-width, initial-scale=1">
@@ -62,13 +62,17 @@
 
         <main>
             <section class="figures">
-                <article class="container-fluid d-flex align-items-center justify-content-center">
+                <article class="container-fluid d-flex align-items-center justify-content-center" style="margin-top: 0.5rem;margin-bottom: 0.5rem;">
                     <div class="row">
                         <div class="col-sm">
                             <h2>Triangulo escaleno</h2>
                         </div>
-                        <div class="col-sm">
-                            <button id="objeto" onclick="changeSizeTriangleEscaleno()"><div id="escaleno"></div></button>
+                        <div class="col-sm ">
+                            
+                            <svg class="container_figure">
+                                <polygon id="escaleno" points="0 0, 40 100, 230 100" />
+                            </svg>
+                            
                         </div>
                     </div>
                 </article>
