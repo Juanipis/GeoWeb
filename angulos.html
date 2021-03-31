@@ -7,10 +7,19 @@
     <title>GeoWeb | ¡Aprende geometría gratis!</title>
     <link rel="shortcut icon" href="/assets/iconos/geometry_icon.ico" type="image/x-icon">
     <link rel="stylesheet" href="/css/index.css">
+    <link rel="stylesheet" href="/css/lines.css">
+    
+    <script src="https://cdn.jsdelivr.net/npm/@svgdotjs/svg.js@3.0/dist/svg.min.js"></script>
+    <script src="/libraries/svg.math.js/svg.math.min.js"></script>
+    <script src="/js/angles.js"></script>
     <!-- Bootstrap CSS -->
     <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.0-beta3/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-eOJMYsd53ii+scO/bJGFsiCZc+5NDVN2yr8+0RDqr0Ql0h+rP48ckxlpbzKgwra6" crossorigin="anonymous">
-    
-    
+
+    <!-- Math-->
+    <script src="https://polyfill.io/v3/polyfill.min.js?features=es6"></script>
+    <script id="MathJax-script" async src="https://cdn.jsdelivr.net/npm/mathjax@3/es5/tex-mml-chtml.js"></script>
+
+
     
     </head>
     <body>
@@ -69,11 +78,25 @@
         </header>
         
 
-
-
-        
-
-
+        <main>
+            <section>
+                <h1 style="text-align: center;">Tipos de ángulos</h1>
+                <article class="container-fluid d-flex align-items-center justify-content-center">
+                    <div class="row">
+                        <div class="col-sm">
+                            <h2>Ángulos agudo</h2>
+                            <ul>
+                                <p>Ángulos menores a 90°</p>
+                                <p>$$\measuredangle \alpha < 90°$$</p>
+                            </ul>
+                        </div>
+                        <div class="col-sm">
+                            <div class="col-sm" id="angulo"></div>
+                        </div>
+                    </div>
+                </article>
+            </section>
+        </main>
 
         <footer id="footer">
             <div class="container-fluid d-flex align-items-center justify-content-center">
