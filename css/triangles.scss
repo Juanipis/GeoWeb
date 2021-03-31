@@ -59,10 +59,35 @@
     animation-iteration-count: infinite;
 }
 
+
+@keyframes animacion_equilatero{
+    0%{
+        fill: #34a853;
+        transform: scale(1);
+    }
+    50%{
+        fill: #fbbc05;
+        transform: scale(random());
+    }
+    100%{
+        fill: #34a853;
+        transform: scale(1);
+    }
+}
+
+#equilatero{
+    animation-name: animacion_equilatero;
+    animation-duration: 6s;
+    animation-iteration-count: infinite;
+}
+
+
+
 .type_containers{
     margin-top: 2rem;
 }
 .col-sm h2{
     text-align: center;
 }
+
 

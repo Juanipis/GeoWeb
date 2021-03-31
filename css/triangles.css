@@ -101,6 +101,44 @@
           animation-iteration-count: infinite;
 }
 
+@-webkit-keyframes animacion_equilatero {
+  0% {
+    fill: #34a853;
+    transform: scale(1);
+  }
+  50% {
+    fill: #fbbc05;
+    transform: scale(0.7678430357);
+  }
+  100% {
+    fill: #34a853;
+    transform: scale(1);
+  }
+}
+
+@keyframes animacion_equilatero {
+  0% {
+    fill: #34a853;
+    transform: scale(1);
+  }
+  50% {
+    fill: #fbbc05;
+    transform: scale(0.7678430357);
+  }
+  100% {
+    fill: #34a853;
+    transform: scale(1);
+  }
+}
+#equilatero {
+  -webkit-animation-name: animacion_equilatero;
+          animation-name: animacion_equilatero;
+  -webkit-animation-duration: 6s;
+          animation-duration: 6s;
+  -webkit-animation-iteration-count: infinite;
+          animation-iteration-count: infinite;
+}
+
 .type_containers {
   margin-top: 2rem;
 }
