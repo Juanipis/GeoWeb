@@ -1,0 +1,10 @@
+.construction{
+    stroke: black;
+    stroke-width: 2px;
+
+}
+.lineaangulo{
+    stroke: red;
+    stroke-width: 2px;
+    transform: rotate(-200 50 50);
+}
