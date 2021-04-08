@@ -1,3 +1,9 @@
+/*Paleta de colores de google
+    Azul: #4285f4
+    Verde: #34a853
+    Amarillo: #fbbc05
+    Rojo: #ea4335
+*/
 h2{
     text-align: center;
 }
@@ -16,7 +22,7 @@ h2{
     left: 10%;
     width: 2px;
     height: 100px;
-    background-color: red;
+    
     transform-origin: center top;
     
 }
@@ -34,10 +40,14 @@ h2{
     transform: rotate(-90deg);
 }
 #lado_agudo{
+    background-color: #ea4335;
     transform: rotate(-90deg);
     animation: anguloAgudoAnimate 6s infinite;
 }
-
+#lado_recto{
+    transform: rotate(-180deg);
+    background-color: #fbbc05;
+}
 @keyframes anguloAgudoAnimate{
     0%{
         transform: rotate(-90deg);
