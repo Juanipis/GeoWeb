@@ -111,6 +111,34 @@
     }
 }
 
+#rectangulo{
+    fill: #ea4335;
+    
+    
+    animation-name: animacion_rectangulo;
+    animation-duration: 2s;
+    animation-iteration-count: infinite;
+    
+
+}
+
+@keyframes animacion_rectangulo {
+    
+    0%{
+        clip-path: polygon(50% 0%, 50% 100%, 100% 100%);
+    }
+    50%{
+        clip-path: polygon(50% 0%, 50% 100%, 100% 100%);
+    }
+    51%{
+
+        clip-path: polygon(50% 0%, 0% 100%, 50% 100%);
+    }
+    100%{
+        clip-path: polygon(50% 0%, 0% 100%, 50% 100%);
+    }
+    
+}
 
 .type_containers{
     margin-top: 2rem;
