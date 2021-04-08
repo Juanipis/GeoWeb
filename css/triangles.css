@@ -108,7 +108,7 @@
   }
   50% {
     fill: #fbbc05;
-    transform: scale(0.6086846053);
+    transform: scale(0.6753950316);
   }
   100% {
     fill: #34a853;
@@ -123,7 +123,7 @@
   }
   50% {
     fill: #fbbc05;
-    transform: scale(0.6086846053);
+    transform: scale(0.6753950316);
   }
   100% {
     fill: #34a853;
@@ -251,6 +251,10 @@
             clip-path: polygon(50% 0%, 0% 100%, 50% 100%);
   }
 }
+#obtusangulo {
+  fill: #fbbc05;
+}
+
 .type_containers {
   margin-top: 2rem;
 }
