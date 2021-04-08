@@ -82,6 +82,35 @@
 }
 
 
+#acutangulo{
+    fill: #4285f4;
+    animation-name: animacion_acutangulo;
+    animation-duration: 6s;
+    animation-iteration-count: infinite;
+    position: relative;
+    z-index: 1;
+}
+@keyframes animacion_acutangulo {
+    0%{
+        clip-path: polygon(50% 0%, 0% 100%, 100% 100%);
+    }
+    20%{
+        clip-path: polygon(80% 0%, 0% 100%, 100% 100%);
+    }
+    40%{
+        clip-path: polygon(50% 0%, 0% 20%, 100% 100%);
+    }
+    60%{
+        clip-path: polygon(50% 0%, 0% 20%, 50% 100%);
+    }
+    80%{
+        clip-path: polygon(50% 0%, 0% 20%, 50% 50%);
+    }
+    100%{
+        clip-path: polygon(50% 0%, 0% 100%, 100% 100%);
+    }
+}
+
 
 .type_containers{
     margin-top: 2rem;

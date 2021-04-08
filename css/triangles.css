@@ -108,7 +108,7 @@
   }
   50% {
     fill: #fbbc05;
-    transform: scale(0.7678430357);
+    transform: scale(0.2348855638);
   }
   100% {
     fill: #34a853;
@@ -123,7 +123,7 @@
   }
   50% {
     fill: #fbbc05;
-    transform: scale(0.7678430357);
+    transform: scale(0.2348855638);
   }
   100% {
     fill: #34a853;
@@ -139,6 +139,71 @@
           animation-iteration-count: infinite;
 }
 
+#acutangulo {
+  fill: #4285f4;
+  -webkit-animation-name: animacion_acutangulo;
+          animation-name: animacion_acutangulo;
+  -webkit-animation-duration: 6s;
+          animation-duration: 6s;
+  -webkit-animation-iteration-count: infinite;
+          animation-iteration-count: infinite;
+  position: relative;
+  z-index: 1;
+}
+
+@-webkit-keyframes animacion_acutangulo {
+  0% {
+    -webkit-clip-path: polygon(50% 0%, 0% 100%, 100% 100%);
+            clip-path: polygon(50% 0%, 0% 100%, 100% 100%);
+  }
+  20% {
+    -webkit-clip-path: polygon(80% 0%, 0% 100%, 100% 100%);
+            clip-path: polygon(80% 0%, 0% 100%, 100% 100%);
+  }
+  40% {
+    -webkit-clip-path: polygon(50% 0%, 0% 20%, 100% 100%);
+            clip-path: polygon(50% 0%, 0% 20%, 100% 100%);
+  }
+  60% {
+    -webkit-clip-path: polygon(50% 0%, 0% 20%, 50% 100%);
+            clip-path: polygon(50% 0%, 0% 20%, 50% 100%);
+  }
+  80% {
+    -webkit-clip-path: polygon(50% 0%, 0% 20%, 50% 50%);
+            clip-path: polygon(50% 0%, 0% 20%, 50% 50%);
+  }
+  100% {
+    -webkit-clip-path: polygon(50% 0%, 0% 100%, 100% 100%);
+            clip-path: polygon(50% 0%, 0% 100%, 100% 100%);
+  }
+}
+
+@keyframes animacion_acutangulo {
+  0% {
+    -webkit-clip-path: polygon(50% 0%, 0% 100%, 100% 100%);
+            clip-path: polygon(50% 0%, 0% 100%, 100% 100%);
+  }
+  20% {
+    -webkit-clip-path: polygon(80% 0%, 0% 100%, 100% 100%);
+            clip-path: polygon(80% 0%, 0% 100%, 100% 100%);
+  }
+  40% {
+    -webkit-clip-path: polygon(50% 0%, 0% 20%, 100% 100%);
+            clip-path: polygon(50% 0%, 0% 20%, 100% 100%);
+  }
+  60% {
+    -webkit-clip-path: polygon(50% 0%, 0% 20%, 50% 100%);
+            clip-path: polygon(50% 0%, 0% 20%, 50% 100%);
+  }
+  80% {
+    -webkit-clip-path: polygon(50% 0%, 0% 20%, 50% 50%);
+            clip-path: polygon(50% 0%, 0% 20%, 50% 50%);
+  }
+  100% {
+    -webkit-clip-path: polygon(50% 0%, 0% 100%, 100% 100%);
+            clip-path: polygon(50% 0%, 0% 100%, 100% 100%);
+  }
+}
 .type_containers {
   margin-top: 2rem;
 }
