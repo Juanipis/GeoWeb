@@ -48,6 +48,12 @@ h2{
     transform: rotate(-180deg);
     background-color: #fbbc05;
 }
+#lado_obtuso{
+    transform: rotate(-180deg);
+    background-color: #34a853;
+    animation: anguloontusoAnimate 6s infinite;
+}
+
 @keyframes anguloAgudoAnimate{
     0%{
         transform: rotate(-90deg);
@@ -59,5 +65,17 @@ h2{
 
     100%{
         transform: rotate(-90deg); /*Angulo final*/
+    }
+}
+
+@keyframes anguloontusoAnimate {
+    0%{
+        transform: rotate(-180.1deg);
+    }
+    50%{
+        transform: rotate(-269.9deg);
+    }
+    100%{
+        transform: rotate(-180.1deg);
     }
 }
