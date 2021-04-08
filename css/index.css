@@ -29,3 +29,6 @@
     width: 26px;
     
 }
+hr.section_divider{
+    border: 2px solid #fbbc05;
+}

@@ -1,10 +1,53 @@
-.construction{
-    stroke: black;
-    stroke-width: 2px;
-
+h2{
+    text-align: center;
 }
-.lineaangulo{
-    stroke: red;
-    stroke-width: 2px;
-    transform: rotate(-200 50 50);
+.col-sm ul p{
+    text-align: center;
+}
+
+.angulos{
+    width: 150px;
+    height: 150px;
+    position: relative;
+}
+.lado{
+    position: absolute;
+    top: 70%;
+    left: 10%;
+    width: 2px;
+    height: 100px;
+    background-color: red;
+    transform-origin: center top;
+    
+}
+.base{
+    position: absolute;
+    top: 70%;
+    left: 10%;
+    width: 2px;
+    height: 100px;
+    background-color: black;
+    transform-origin: center top;
+}
+
+#base_agudo{
+    transform: rotate(-90deg);
+}
+#lado_agudo{
+    transform: rotate(-90deg);
+    animation: anguloAgudoAnimate 6s infinite;
+}
+
+@keyframes anguloAgudoAnimate{
+    0%{
+        transform: rotate(-90deg);
+    }
+
+    50%{
+        transform: rotate(-179.9deg); /*Angulo final*/
+    }
+
+    100%{
+        transform: rotate(-90deg); /*Angulo final*/
+    }
 }
