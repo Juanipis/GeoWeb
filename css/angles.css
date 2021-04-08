@@ -19,7 +19,7 @@ h2{
 .lado{
     position: absolute;
     top: 70%;
-    left: 10%;
+    left: 100%;
     width: 2px;
     height: 100px;
     
@@ -29,7 +29,7 @@ h2{
 .base{
     position: absolute;
     top: 70%;
-    left: 10%;
+    left: 100%;
     width: 2px;
     height: 100px;
     background-color: black;
@@ -48,12 +48,17 @@ h2{
     transform: rotate(-180deg);
     background-color: #fbbc05;
 }
+
 #lado_obtuso{
+    left: 100%;
     transform: rotate(-180deg);
     background-color: #34a853;
     animation: anguloontusoAnimate 6s infinite;
 }
-
+#lado_llano{
+    transform: rotate(-270deg);
+    background-color: #b420d1;
+}
 @keyframes anguloAgudoAnimate{
     0%{
         transform: rotate(-90deg);
