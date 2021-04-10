@@ -1,6 +1,6 @@
 # [GeoWeb](https://juanipis.github.io/GeoWeb/)  ¡Aprende geometría gratis!
 
-_Hola👋, esto es GeoWeb, un proyecto de código abierto para construir la nueva manera de aprender geometría._
+_Hola👋, esto es [GeoWeb](https://juanipis.github.io/GeoWeb/), un proyecto de código abierto para construir la nueva manera de aprender geometría._
 
 ---
 
