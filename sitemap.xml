@@ -1,37 +1,47 @@
-<?xml version="1.0" encoding="UTF-8"?>
-<urlset
-      xmlns="http://www.sitemaps.org/schemas/sitemap/0.9"
-      xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
-      xsi:schemaLocation="http://www.sitemaps.org/schemas/sitemap/0.9
-            http://www.sitemaps.org/schemas/sitemap/0.9/sitemap.xsd">
-<!-- created with Free Online Sitemap Generator www.xml-sitemaps.com -->
+<?xml version="1.0" encoding="UTF-8"?> <urlset xmlns="http://www.google.com/schemas/sitemap/0.9">
+		<url>
+			<loc>https://juanipis.github.io/</loc>
+		</url>
 
+		<url>
+			<loc>https://juanipis.github.io/./index.html</loc>
+		</url>
 
-<url>
-  <loc>https://juanipis.github.io/GeoWeb/</loc>
-  <lastmod>2021-04-10T18:55:46+00:00</lastmod>
-  <priority>1.00</priority>
-</url>
-<url>
-  <loc>https://juanipis.github.io/GeoWeb/index.html</loc>
-  <lastmod>2021-04-10T18:55:46+00:00</lastmod>
-  <priority>0.80</priority>
-</url>
-<url>
-  <loc>https://juanipis.github.io/GeoWeb/angulos.html</loc>
-  <lastmod>2021-04-10T18:55:46+00:00</lastmod>
-  <priority>0.80</priority>
-</url>
-<url>
-  <loc>https://juanipis.github.io/GeoWeb/tipo_triangulos.html</loc>
-  <lastmod>2021-04-10T18:55:46+00:00</lastmod>
-  <priority>0.80</priority>
-</url>
-<url>
-  <loc>https://juanipis.github.io/GeoWeb/lineas_triangulos.html</loc>
-  <lastmod>2021-04-10T18:55:46+00:00</lastmod>
-  <priority>0.80</priority>
-</url>
+		<url>
+			<loc>https://juanipis.github.io/./angulos.html</loc>
+		</url>
 
+		<url>
+			<loc>https://juanipis.github.io/./tipo_triangulos.html</loc>
+		</url>
 
-</urlset>
+		<url>
+			<loc>https://juanipis.github.io/./lineas_triangulos.html</loc>
+		</url>
+
+		<url>
+			<loc>https://juanipis.github.io/index.html</loc>
+		</url>
+
+		<url>
+			<loc>https://juanipis.github.io/HTML/datos_biograficos.html</loc>
+		</url>
+
+		<url>
+			<loc>https://juanipis.github.io/HTML/experiencia_laboral.html</loc>
+		</url>
+
+		<url>
+			<loc>https://juanipis.github.io/HTML/linea_de_tiempo.html</loc>
+		</url>
+
+		<url>
+			<loc>https://juanipis.github.io/HTML/material_de_interes.html</loc>
+		</url>
+
+		<url>
+			<loc>https://juanipis.github.io/HTML/foro_de_mensajes.html</loc>
+		</url>
+
+	</urlset>
+
