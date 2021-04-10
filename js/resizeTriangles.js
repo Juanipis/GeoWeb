@@ -15,20 +15,38 @@ document.addEventListener("DOMContentLoaded", function () {
     $escaleno.style.setProperty('--width-b', getRandomArbitrary(0, 40) +'%');
     $escaleno.style.setProperty('--width-c', getRandomArbitrary(90, 100) +'%');
     
-    l
   }
   setInterval(changeAnimationTime, 6000);
 
   var obtusangulo = document.getElementById('obtusangulo');
-  var hola = obtusangulo.getAttribute('points');
-  var valorXObtuso = 90.1;
+  var valorXObtuso = 100;
+  var valorYObtuso = 90;
+  var direction = true;
   function animate_obtusangulo(){
-    console.log("hola mundo");
-    valorXObtuso = valorXObtuso+0.1;
-    obtusangulo.setAttribute('points', '100 '+ valorXObtuso +', 150 150, 300 150')
+    
+    //Manejamos un intervalo cerrado
+    if (valorXObtuso > 150) {
+      direction = false
+    }
+    if(valorXObtuso < 0){
+      direction = true;
+    }
+
+    if(direction){
+      valorXObtuso = valorXObtuso+0.1;
+      valorYObtuso = (150/22500)*Math.pow((valorXObtuso-150),2); //Función cuadratica que describe el movimiento
+
+    }
+    else{
+      valorXObtuso = valorXObtuso-0.1;
+      valorYObtuso = (150/22500)*Math.pow((valorXObtuso-150),2);
+    }
+    
+
+    obtusangulo.setAttribute('points', valorXObtuso +' ' + valorYObtuso + ', 150 150, 300 150')
   }
   
-  setInterval(animate_obtusangulo, 20)
+  setInterval(animate_obtusangulo, 1)
   
   }
 );
