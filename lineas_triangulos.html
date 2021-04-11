@@ -87,11 +87,24 @@
                             <li>
                                 Es el segmento que une un <strong>vértice</strong> con el punto <strong>medio</strong> de su lado opuesto
                             </li>
+                            <p>$$Si \hspace{10px} \overline{AP} \hspace{10px} es \hspace{10px} mediana \hspace{10px} de \hspace{10px} \overline{BC}$$</p>
+                            <p>$$\overline{BP} \cong \overline{PC}$$</p>
                         </ul>
                     </div>
                     <div class="col-sm ">
                         <svg class="container_figure">
-                            <polygon class="triangulo_lineas" points="0 0, 40 150, 300 110" />
+                            
+                            <polygon class="triangle" points="150 0, 3 140, 297 140" />
+                            <text class="letra_vertice" x="170" y="12">A</text> <!--Vertice A-->
+                            <text x="0" y="130">B</text> <!--Vertice B-->
+                            <text x="291" y="130">C</text> <!--Vertice C-->
+                            <text x="160" y="130">P</text> <!--Vertice C-->
+                            <line class="linea" x1="150" y1="0" x2="150" y2="140" stroke="black" stroke-width="2px"></line>
+                            <line class="linea_congruencia" x1="68" y1="147" x2="68" y2="132" stroke="#ea4335" stroke-width="2px"></line>
+                            <line class="linea_congruencia" x1="72" y1="147" x2="72" y2="132" stroke="#ea4335" stroke-width="2px"></line>
+                            <line class="linea_congruencia" x1="218" y1="147" x2="218" y2="132" stroke="#ea4335" stroke-width="2px"></line>
+                            <line class="linea_congruencia" x1="222" y1="147" x2="222" y2="132" stroke="#ea4335" stroke-width="2px"></line>
+                            
                         </svg>
                     </div>
                 </div>
@@ -120,5 +133,7 @@
 
         <!-- Option 1: Bootstrap Bundle with Popper -->
         <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.0-beta3/dist/js/bootstrap.bundle.min.js" integrity="sha384-JEW9xMcG8R+pH31jmWH6WWP0WintQrMb4s7ZOdauHnUtxwoG2vI5DkLtS3qm9Ekf" crossorigin="anonymous"></script>
+        <script src="./js/linesTriangles.js"></script>
+        <!---->
     </body>
 </html>
