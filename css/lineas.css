@@ -5,11 +5,25 @@
     Amarillo: #fbbc05
     Rojo: #ea4335
 */
+:root {
+  --angle-bisectriz: -313.622291106deg;
+}
+
 polygon.triangle {
-    fill: transparent;
-    stroke: #4285f4;
-    stroke-width: 2px;
+  fill: none;
+  stroke: #4285f4;
+  stroke-width: 2px;
 }
+
 circle.mediana {
-    fill: #ea4335;
+  fill: #ea4335;
 }
+
+div#bisectriz {
+  position: absolute;
+  top: 51%;
+  transform: rotate(var(--angle-bisectriz));
+  background-color: #34a853;
+  width: 2px;
+  height: 140px;
+}/*# sourceMappingURL=lineas.css.map */
