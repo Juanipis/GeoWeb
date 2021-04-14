@@ -5,6 +5,11 @@
     Amarillo: #fbbc05
     Rojo: #ea4335
 */
+
+.hero-icon {
+    width: 32px;
+}
+
 #footer .container-fluid{
     background-color: #F7F7F7;
     height: auto;
